@@ -3,7 +3,7 @@
 # How to run 
 1.First install all requirements given in requirements.txt
 
-2.Download and unzip the dataset 
+2.Download the dataset from the link ( https://files.grouplens.org/datasets/movielens/ml-25m.zip  )  and unzip the dataset. 
 
 3.For two different approach follow the Process given below
 
