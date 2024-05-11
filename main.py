@@ -6,7 +6,7 @@ import pickle
 
 
 
-df = pd.read_csv("movies.csv")
+df = pd.read_csv("ml-25m/movies.csv")
 
 
 df = df.iloc[:10000,:] #Taking Small Subset of Dataset
