@@ -9,7 +9,7 @@ from libreco.data import DatasetPure, split_by_ratio_chrono
 
 # Preprocessing 
 
-movie_df = pd.read_csv('movies.csv')
+movie_df = pd.read_csv('ml-25m/movies.csv')
 movie_df = movie_df.iloc[:10000,:]  #Taking Small Subset of whole data
 movie_df['genres'] = movie_df['genres'].str.replace('|', ' ')
 movie_df['genres'] = movie_df['genres'].str.lower()
@@ -17,7 +17,7 @@ movie_df['title'] = movie_df['title'].str.extract(r'(^.+)\s\(\d{4}\)')  # To rem
 movie_df['title'] = movie_df['title'].str.split(',').str[0]  # To correct the movie name as some movie name given is wrong
 
 
-data = pd.read_csv('ratings.csv')
+data = pd.read_csv('ml-25m/ratings.csv')
 data = data.iloc[:100000, :]  #Taking Small subset of whole data
 data.columns = ["user", "item", "label", "time"]
 
