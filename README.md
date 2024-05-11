@@ -1,7 +1,11 @@
 # Recommendation-System
 
 # How to run 
-First install all requirements given in requirements.txt
+1.First install all requirements given in requirements.txt
+
+2.Download and unzip the dataset 
+
+3.For two different approach follow the Process given below
 
 ## Content Based Filtering( Movie Recommendation System)
 1.Run the main.py 
