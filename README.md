@@ -1,7 +1,7 @@
 # Recommendation-System
 
 # How to run 
-First intall all requirements given in requirements.txt
+First install all requirements given in requirements.txt
 
 ## Content Based Filtering( Movie Recommendation System)
 1.Run the main.py 
