@@ -10,6 +10,8 @@ First install all requirements given in requirements.txt
   
 3.Then you get streamlit app 
 
+4.Give input in app and get recommendation for movies
+
 ## Collaborative Filtering (rating recommendation)
 1.Run rating_recommendation.py
 
